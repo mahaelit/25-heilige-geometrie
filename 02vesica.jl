@@ -56,6 +56,6 @@ radius = 100
 linewidth = 2.5
 filename = "vesica_piscis.svg"
 output_file = joinpath(@__DIR__, filename)
-vesica_svg(output_file, radius; center=Point2f(0,0), linewidth=linewidth, color=colorant"rgba(0, 0, 0, 0.8)", background=:white, rotation=0, sep_ratio=1.0, pad_ratio=0.1, method=:arc)
+vesica_svg(output_file, radius; center=Point2f(0,0), linewidth=linewidth, color=colorant"rgba(0, 0, 0, 0.8)", background=:white, rotation=90*π/180, sep_ratio=1.0, pad_ratio=0.1, method=:arc)
 println("Grafik wurde erfolgreich als 'vesica_piscis.svg' gespeichert.")
  
