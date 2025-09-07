@@ -77,7 +77,7 @@ linewidth = 2.5
 rings = 2                    # 2 Ringe → 19 Kreise
 rotation_deg = 90
 rotation_rad = rotation_deg * (π/180)
-filename = "blume_des_lebens.svg"
+filename = "ei_des_lebens.svg"
 output_file = joinpath(@__DIR__, filename)
 
 flower_svg(output_file, radius; center=Point2f(0,0), rings=rings, linewidth=linewidth, color=colorant"rgba(0, 0, 0, 0.8)", background=:white, rotation=rotation_rad, pad_ratio=0.1, method=:arc)
